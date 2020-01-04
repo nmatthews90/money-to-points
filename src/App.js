@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import MoneyInput from './components/MoneyInput/MoneyInput';
 import PointsOutput from './components/PointsOutput/PointsOutput';
+import Header from './components/Header/Header';
+import tachyons from 'tachyons';
 import './App.css';
+
 
 class App extends Component {
   state = {
@@ -14,22 +17,15 @@ class App extends Component {
 
   render() {
   return (
-    <div>
-      <p>A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent over $50 in each transaction.</p>
-        <p>(e.g. a $120 purchase = 2x$20 + 1x$50 = 90 points).</p>
-
-    <input
-      type="number"
-      onChange={this.changeHandler}
-      value={this.state.userInput}
-    />
-
-      <MoneyInput purchaseAmount={this.state.userInput} />
+    <div className="App">
+      <Header />
+      <MoneyInput
+        changeHandler={this.changeHandler}
+        userInput={this.userInput}
+      />
       <PointsOutput purchaseAmount={this.state.userInput} />
-
-
     </div>
-  )
+  );
   }
 }
 

@@ -25,7 +25,7 @@ class App extends Component {
     />
 
       <MoneyInput purchaseAmount={this.state.userInput} />
-      <PointsOutput />
+      <PointsOutput purchaseAmount={this.state.userInput} />
 
 
     </div>

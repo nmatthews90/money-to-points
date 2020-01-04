@@ -10,6 +10,8 @@ const PointsOutput = (props) => {
         return (2 * (purchaseAmount - 100) + 50);
     }
     return 0;
+
+    
 }
 
 export default PointsOutput;

@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import MoneyInput from './components/MoneyInput/MoneyInput';
 import PointsOutput from './components/PointsOutput/PointsOutput';
 import Header from './components/Header/Header';
-import tachyons from 'tachyons';
 import './App.css';
 
 
 class App extends Component {
+  
   state = {
     userInput: ""
   };

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/money-to-points/static/css/main.ccd63339.chunk.css",
+    "main.js": "/money-to-points/static/js/main.d7261494.chunk.js",
+    "main.js.map": "/money-to-points/static/js/main.d7261494.chunk.js.map",
+    "runtime-main.js": "/money-to-points/static/js/runtime-main.b33326ff.js",
+    "runtime-main.js.map": "/money-to-points/static/js/runtime-main.b33326ff.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/money-to-points/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.0c526e5e.chunk.js": "/money-to-points/static/js/2.0c526e5e.chunk.js",
+    "static/js/2.0c526e5e.chunk.js.map": "/money-to-points/static/js/2.0c526e5e.chunk.js.map",
+    "index.html": "/money-to-points/index.html",
+    "precache-manifest.d58c8eebb54dc99b1920d2090e14f97d.js": "/money-to-points/precache-manifest.d58c8eebb54dc99b1920d2090e14f97d.js",
+    "service-worker.js": "/money-to-points/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/money-to-points/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.ccd63339.chunk.css.map": "/money-to-points/static/css/main.ccd63339.chunk.css.map",
+    "static/js/2.0c526e5e.chunk.js.LICENSE": "/money-to-points/static/js/2.0c526e5e.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b33326ff.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.0c526e5e.chunk.js",
+    "static/css/main.ccd63339.chunk.css",
+    "static/js/main.d7261494.chunk.js"
+  ]
+}
